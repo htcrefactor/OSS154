@@ -4,5 +4,4 @@
 - 201620989
 
 * 2021/09/23 - Web에서 편집했습니다
-* 2021/0923 - Edited in SSH server
-
+* 2021/09/23 - Edited in SSH server
