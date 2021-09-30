@@ -1,0 +1,378 @@
+    1  #
+    2  ls
+    3  ls
+    4  pwd
+    5  passwd 
+    6  exit
+    7  passwd
+    8  exit
+    9  ls
+   10  ls -al
+   11  touch test.md
+   12  ls
+   13  exit
+   14  ls
+   15  ls -al
+   16  vim .cache
+   17  vim .gnupg
+   18  ls
+   19  rm touch.md
+   20  rm test.md
+   21  who
+   22  ls
+   23  git --global user.name
+   24  git config --global user.name
+   25  git config --global user.email
+   26  pwd
+   27  who | grep 163
+   28  ls
+   29  mkdir foss
+   30  ls
+   31  cd foss
+   32  echo 201620989 > touch student_id
+   33  ls
+   34  head student_id
+   35  head ./student_id
+   36  clear
+   37  ls
+   38  cat touch
+   39  rm touch
+   40  echo 201620989 > touch student_id
+   41  ls
+   42  rm
+   43  rm touch
+   44  ls
+   45  echo 201620989 > student_id
+   46  ls
+   47  head student_id 
+   48  tree
+   49  clear
+   50  #
+   51  mkdir lab03
+   52  vim test
+   53  mv test lab03
+   54  ls
+   55  cd lab03
+   56  mv lab03 hello.c
+   57  ls
+   58  mv test hello.c
+   59  ls
+   60  cc hello.c
+   61  ls
+   62  ./a.out
+   63  tty
+   64  ls -lad .
+   65  ls -la
+   66  ls -d
+   67  ls -d .
+   68  ls -ad .
+   69  ls -ld .
+   70  cd
+   71  cd ../../hwan/
+   72  pwd
+   73  ls -al
+   74  cd 
+   75  pwd
+   76  cd ..
+   77  ls -l
+   78  cd oss180
+   79  ls
+   80  cd foss
+   81  ls
+   82  ls -al
+   83  vim .std
+   84  cd
+   85  ls
+   86  pwd
+   87  chmod ls -ld
+   88  chmod 700 foss
+   89  ls -ld
+   90  ls
+   91  chmod 700 foss
+   92  ls -ld
+   93  ls
+   94  cd foss
+   95  chmod 700 foss
+   96  cd ..
+   97  ls
+   98  chmod 700 foss
+   99  ls -ld
+  100  ls -al
+  101  ls -ld foss
+  102  cd ..
+  103  ls
+  104  cd oss154
+  105  ls
+  106  cd foss
+  107  ls
+  108  # 
+  109  cd lab03
+  110  ls
+  111  echo ls -l
+  112  decho ls -l > lscomm
+  113  echo ls -l > lscomm
+  114  chmod 777 lscomm
+  115  ls
+  116  tty
+  117  echo Lalalalal > /dev/pts/45
+  118  echo Lalalalal > /dev/pts/6
+  119  echo U+1F680 > /dev/pts/45
+  120  vi hello.c
+  121  cc hello.c
+  122  vi hello.
+  123  vi hello.c 
+  124  cc hello.c
+  125  ./a.out
+  126  vi hello.c 
+  127  cc hello.c
+  128  ./a.out
+  129  vi hello.c 
+  130  cat ll
+  131  echo 500 > ll
+  132  ls
+  133  ./a.out < ll > lll
+  134  cat lll
+  135  vi hello.c 
+  136  cc hello.c
+  137  vi hello.c 
+  138  cc hello.c
+  139  ./a.out < ll
+  140  ./a.out 0 < ll 1 > stdout1 2 > stderr2
+  141  cat stdout1
+  142  ls
+  143  cat stdout1
+  144  more stdout1
+  145  ./a.out 0< ll 1> stdout1 2> stderr2
+  146  history > hist.0909
+  147  ls
+  148  cd foss
+  149  cd lab04
+  150  ls
+  151  ln -s a.out sla.out
+  152  ls -ali
+  153  ls
+  154  tty
+  155  ls
+  156  pw
+  157  pwd
+  158  cd foss
+  159  ls
+  160  who
+  161  #
+  162  ls
+  163  mkdir lab04 ; cd lab04
+  164  cp ../lab03/hello.c .
+  165  ls
+  166  cp ../lab03/a.out .
+  167  ls
+  168  echo $DIRSTACK
+  169  popd
+  170  $PWD
+  171  cd dev
+  172  pwd
+  173  ls
+  174  du
+  175  du -h
+  176  ln a.out alink.out
+  177  ls -al
+  178  ln hello.c hellolink.c
+  179  ls -al
+  180  ls -ali
+  181  # 
+  182  vi hello.c
+  183  ls -li
+  184  cc hellolink.c
+  185  ls -li
+  186  ln a.out bout
+  187  rm bout
+  188  ln a.out b.out
+  189  ln a.out c.out
+  190  ln c.out d.out
+  191  ls -ali
+  192  du
+  193  #
+  194  ln -s a.out sa.out
+  195  ls -al
+  196  which login
+  197  login
+  198  login hwan
+  199  grep root /etc/passwd
+  200  cd ..
+  201  ls
+  202  mkdir lab05 ; cd lab06
+  203  history
+  204  mkdir lab05 ; cd lab05
+  205  ls
+  206  cd ..
+  207  ls
+  208  cp lab04/hello.c lab05
+  209  ls
+  210  cd lab05
+  211  ls
+  212  vi hello.c
+  213  vi hello.c
+  214  cc hello.c
+  215  ls
+  216  cat hello.c
+  217  a.out
+  218  ./a.out
+  219  vim hello.c
+  220  cc hello.c
+  221  ./a.out
+  222  echo $?
+  223  name="Hyungtaik Choi"
+  224  echo name $name
+  225  echo "My name is $name!"
+  226  echo name '$name'
+  227  a = 200
+  228  a=200
+  229  b=300
+  230  echo $a
+  231  echo $(($a + $b)
+  232  )
+  233  echo $(($a+$b))
+  234  a = 2.5
+  235  ls -l `pwd`
+  236  c=400
+  237  ./a.out <<<"100 200 300"
+  238  echo $?
+  239  echo $?
+  240  cp ~hwan/.profile
+  241  cp ~hwan/.profile .
+  242  rm .profile
+  243  cd ~
+  244  pwd
+  245  cp ~hwan/.bashrc ~hwan/.bash_logout .
+  246  source .profile
+  247  cp ~hwan/.profile .
+  248  source .profile
+  249  vim .profile
+  250  clear
+  251  ls
+  252  clear
+  253  vim .bashrc
+  254  # 
+  255  cd lab05
+  256  ls
+  257  cd foss/lab05
+  258  ls
+  259  echo *.c
+  260  ln -s hello.c shello.c
+  261  ls -al
+  262  echo *.c
+  263  echo {a, b, c}.c
+  264  echo {a,b,c}.c
+  265  echo {1...100}.c
+  266  echo {1..100}.c
+  267  echo {1..100..5}.c
+  268  if [[-z $name]]; echo "Name is empty"; fi
+  269  if [[-z $name]]; then echo "Name is empty"; fi
+  270  if [[ -z $name]]; then echo "Name is empty"; fi
+  271  if [[ -z $name]] then echo "Name is empty" fi
+  272  name="Hyungtaik Choi"
+  273  if [[ -z "$name" ]]; then echo "Empty"; else echo $name; fi
+  274  echo ${name%Lee}
+  275  echo ${name%Choi}
+  276  echo ${name%Choi#Hyung}
+  277  echo ${name#Hyung}
+  278  echo ${name#Hyung%Choi}
+  279  echo ${{name#Hyung}%Choi}
+  280  echo ${${name#Hyung}%Choi}
+  281  echo ${#name}
+  282  echo ${name/Choi/Choe}
+  283  ls
+  284  for f in *.c; done
+  285  #
+  286  ls
+  287  for f in *.c;do mv "$f" "$f{f%cpp}"c; done
+  288  ls
+  289  for f in *.c;do mv "$f" "${f/.c{f$cpp}c/.cpp}"; done
+  290  for f in *.c{f%cpp}c;do mv "$f" "${f/.c{f$cpp}c/.cpp}"; done
+  291  ls
+  292  rm hello.c\{f%cpp\}c 
+  293  rm shello.c\{f%cpp\}c 
+  294  cp ../lab04/hello.c .
+  295  ln -s hello.c shello.c
+  296  ls
+  297  ls -al
+  298  for ((i=0; i<=100; i++));do sum=$(($sum+$i)); done
+  299  echo $sum
+  300  read
+  301  read a
+  302  $a
+  303  echo $a
+  304  if a.out ; then echo "0"; fi
+  305  echo $?
+  306  echo $((10000%256))
+  307  a.out
+  308  echo $?
+  309  history
+  310  ls
+  311  cd foss
+  312  ls
+  313  cd foss
+  314  mkdif lab06
+  315  mkdir lab06
+  316  cd lab06
+  317  cd foss
+  318  cd lab06
+  319  cp ../lab05/hello.c ../lab05/*.out .
+  320  ls
+  321  cd foss/lab06
+  322  for i in {1..100}; do istr=`printf "%03d" $i`;echo file$istr.c; done
+  323  ls
+  324  for i in {1..100}; do istr=`printf "%03d" $i`;touch file$istr.c; done
+  325  ls
+  326  rm file07?.c
+  327  ls
+  328  touch file_1.c
+  329  rm file*
+  330  ls
+  331  for i in {1..100}; do istr=`printf "%03d" $i`;touch file$istr.c; done
+  332  ls
+  333  rm file07?.c
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd ..
+  338  ls
+  339  cd hwan
+  340  cd ..
+  341  cd hwan
+  342  ls
+  343  cd foss
+  344  cd ..
+  345  cd ~
+  346  ls
+  347  cd foss
+  348  cd lab06
+  349  ls
+  350  mkdir test && mv file* test
+  351  ls
+  352  touch a.c b.c d.c
+  353  touch "a.c b.c d.c"
+  354  vi some
+  355  mv some comm1.sh
+  356  ls -al
+  357  source comm1.sh
+  358  vim comm1.sh
+  359  source comm1.sh
+  360  vim comm1.sh
+  361  set -C
+  362  set +o noclobber
+  363  set -c
+  364  set -C
+  365  result.txt
+  366  touch result.txt
+  367  ./a.out > result.txt
+  368  set +o noclobber
+  369  ./a.out > result.txt
+  370  vi comm1.sh 
+  371  history > hist.0923
+  372  ls
+  373  history
+  374  cp /tmp/prof_comm1.sh .
+  375  #
+  376  ls
+  377  source prof_comm1.sh
+  378  history > hist.0923

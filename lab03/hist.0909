@@ -1,0 +1,146 @@
+    1  #
+    2  ls
+    3  ls
+    4  pwd
+    5  passwd 
+    6  exit
+    7  passwd
+    8  exit
+    9  ls
+   10  ls -al
+   11  touch test.md
+   12  ls
+   13  exit
+   14  ls
+   15  ls -al
+   16  vim .cache
+   17  vim .gnupg
+   18  ls
+   19  rm touch.md
+   20  rm test.md
+   21  who
+   22  ls
+   23  git --global user.name
+   24  git config --global user.name
+   25  git config --global user.email
+   26  pwd
+   27  who | grep 163
+   28  ls
+   29  mkdir foss
+   30  ls
+   31  cd foss
+   32  echo 201620989 > touch student_id
+   33  ls
+   34  head student_id
+   35  head ./student_id
+   36  clear
+   37  ls
+   38  cat touch
+   39  rm touch
+   40  echo 201620989 > touch student_id
+   41  ls
+   42  rm
+   43  rm touch
+   44  ls
+   45  echo 201620989 > student_id
+   46  ls
+   47  head student_id 
+   48  tree
+   49  clear
+   50  #
+   51  mkdir lab03
+   52  vim test
+   53  mv test lab03
+   54  ls
+   55  cd lab03
+   56  mv lab03 hello.c
+   57  ls
+   58  mv test hello.c
+   59  ls
+   60  cc hello.c
+   61  ls
+   62  ./a.out
+   63  tty
+   64  ls -lad .
+   65  ls -la
+   66  ls -d
+   67  ls -d .
+   68  ls -ad .
+   69  ls -ld .
+   70  cd
+   71  cd ../../hwan/
+   72  pwd
+   73  ls -al
+   74  cd 
+   75  pwd
+   76  cd ..
+   77  ls -l
+   78  cd oss180
+   79  ls
+   80  cd foss
+   81  ls
+   82  ls -al
+   83  vim .std
+   84  cd
+   85  ls
+   86  pwd
+   87  chmod ls -ld
+   88  chmod 700 foss
+   89  ls -ld
+   90  ls
+   91  chmod 700 foss
+   92  ls -ld
+   93  ls
+   94  cd foss
+   95  chmod 700 foss
+   96  cd ..
+   97  ls
+   98  chmod 700 foss
+   99  ls -ld
+  100  ls -al
+  101  ls -ld foss
+  102  cd ..
+  103  ls
+  104  cd oss154
+  105  ls
+  106  cd foss
+  107  ls
+  108  # 
+  109  cd lab03
+  110  ls
+  111  echo ls -l
+  112  decho ls -l > lscomm
+  113  echo ls -l > lscomm
+  114  chmod 777 lscomm
+  115  ls
+  116  tty
+  117  echo Lalalalal > /dev/pts/45
+  118  echo Lalalalal > /dev/pts/6
+  119  echo U+1F680 > /dev/pts/45
+  120  vi hello.c
+  121  cc hello.c
+  122  vi hello.
+  123  vi hello.c 
+  124  cc hello.c
+  125  ./a.out
+  126  vi hello.c 
+  127  cc hello.c
+  128  ./a.out
+  129  vi hello.c 
+  130  cat ll
+  131  echo 500 > ll
+  132  ls
+  133  ./a.out < ll > lll
+  134  cat lll
+  135  vi hello.c 
+  136  cc hello.c
+  137  vi hello.c 
+  138  cc hello.c
+  139  ./a.out < ll
+  140  ./a.out 0 < ll 1 > stdout1 2 > stderr2
+  141  cat stdout1
+  142  ls
+  143  cat stdout1
+  144  more stdout1
+  145  ./a.out 0< ll 1> stdout1 2> stderr2
+  146  history > hist.0909
