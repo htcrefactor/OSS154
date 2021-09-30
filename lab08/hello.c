@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* Lab 08 - RESET */
+
 int main() {
 	int a;
 	fscanf(stdin, "%d", &a);
