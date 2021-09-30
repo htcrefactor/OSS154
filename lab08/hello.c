@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* Lab 08 - RESET */
+/* Lab 08 - RESET 
+ * Lab 08 - Second Commit */
+
 
 int main() {
 	int a;
